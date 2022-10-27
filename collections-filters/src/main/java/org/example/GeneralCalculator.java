@@ -22,7 +22,6 @@ public class GeneralCalculator implements ICalculate {
         if (name.equals(fp.getFieldName())) {
             data.stream()
                     .map(function)
-                    .collect(Collectors.toList());
                     .summaryStatistics();
         }
         return 0;
